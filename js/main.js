@@ -268,7 +268,7 @@ $(function () {
 		function collage() {
 			e.imagesLoaded(function() {
 				e.removeWhitespace().collagePlus({
-					'targetHeight': 400,
+					'targetHeight': 600,
 					'effect': 'effect-2',
 					'allowPartialLastRow': true
 				});
