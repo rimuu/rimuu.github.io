@@ -11,7 +11,7 @@ $(function () {
 		outDuration           :    500,
 		// linkElement           :   '.animsition-link',
 		linkElement           :   'a:not([target="_blank"]):not([href^=#]):not([data-rel*="lightcase"]):not([class*="no-redirect"])',
-		loading               :    true,
+		loading               :    false,
 		loadingParentElement  :   'body', //animsition wrapper element
 		loadingClass          :   'animsition-loading',
 		unSupportCss          : [ 'animation-duration',
@@ -22,6 +22,8 @@ $(function () {
 		overlayClass          :   'animsition-overlay-slide',
 		overlayParentElement  :   'body'
 	});
+
+
 
 
 
