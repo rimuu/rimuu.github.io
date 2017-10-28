@@ -1,6 +1,9 @@
 $(function () {
 	'use strict';
 
+	$(document).ready(function() {
+		$("img").unveil(200);
+	});
 
 	// PAGE TRANSITIONS
 	// ---------------------------------
