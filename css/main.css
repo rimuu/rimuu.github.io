@@ -140,6 +140,15 @@ h6 { font-size: 14px; line-height: 18px; }
 	color: #fff;
 }
 
+.heading{
+	line-height: 1.2;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	font-weight: 100;
+	font-style: normal;
+	color: #000;
+}
+
 
 .exp {
   list-style-type: none;
@@ -2292,4 +2301,8 @@ body.dark-theme{
 }
 .transparent-menu .controls-wrapper:hover{
 	opacity: 1;
+}
+
+div#nav2{
+display:none;
 }

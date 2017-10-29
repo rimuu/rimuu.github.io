@@ -579,5 +579,32 @@ $(function () {
 		}
 	});
 
+	 $(document).ready(function(){
+                   
+                        var altura = $("nav").offset().top; 
+                         
+                        $(window).scroll(function(){
+                         
+                              if($(window).scrollTop() >= altura){
+                                     
+                                    $("div#nav2").css("position","fixed");
+									$("div#nav2").css("margin-top","-100px");
+									$("div#nav2").css("padding","0px");
+									$("div#nav2").css("width","100%");
+									$("div#nav2").css("height","30px");
+									$("div#nav2").css("display","block");
+                        
+									$("div#nav2").css("text-align","center");
+									$("div#nav2").css("background-color","#fff");
+                              }else{
+                                    $("div#nav2").css("margin-top","0px");
+                                    $("div#nav2").css("position","fixed");
+									$("div#nav2").css("display","none");
+                               
+                              }
+                         
+                        });
+                   
+                  });
 
 })
