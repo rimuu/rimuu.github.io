@@ -381,6 +381,15 @@ h6:first-child
 
 
 /* Paddings & Margins */
+.pside15 { padding-left: 15px !important;
+padding-right: 15px !important  }
+
+.pside34 { padding-left: 34px !important;
+padding-right: 34px !important  }
+
+.pside59 { padding-left: 59px !important;
+padding-right: 59px !important  }
+
 .p0   { padding: 0px !important  }
 .p10  { padding: 10px !important }
 .p20  { padding: 20px !important }
