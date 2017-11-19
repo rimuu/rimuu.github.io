@@ -150,6 +150,8 @@ h6 { font-size: 14px; line-height: 18px; }
 }
 
 
+
+
 .exp {
   list-style-type: none;
 }
@@ -365,10 +367,15 @@ h6:first-child
 
 .fade
 {
+	opacity:1;
+}
+
+.fade img
+{padding: 22px !important;
         opacity:1;
 }
-.fade:hover
-{
+.fade img:hover
+{padding: 22px !important;
         opacity:0.7;
 }
 
