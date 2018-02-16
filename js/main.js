@@ -501,8 +501,8 @@ $(function () {
 
 	// Lightbox
 	$('[data-rel^=lightcase]').lightcase({
-		maxWidth: 1100,
-		maxHeight: 800
+		maxWidth: 2000,
+		maxHeight: 1000
 	});
 	
 	// Intense
